@@ -1,8 +1,6 @@
 var car,wall;
 var speed,weight;
-function preload(){
-  testImage = loadImage("try.png");
-}
+
 function setup() {
   createCanvas(1600,400);
   speed=random(55,90);
